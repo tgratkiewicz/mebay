@@ -1,0 +1,7 @@
+<h1>Wszystkie Ogłoszenia</h1>
+<ul>
+<% for ad in @ads %>
+  <li><a href="/ads/<%= ad.id %>"><%= ad.name %></a>
+  [<a href="/ads/<%= ad.id %>/delete">Usuń</a>]</li>
+<% end %>
+</ul>

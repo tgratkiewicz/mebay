@@ -1,0 +1,4 @@
+class Ad < ActiveRecord::Base
+  validates_presence_of :price, "Cena musi być liczbą -"
+  validates_presence_of :name, "Nazwa nie może być pusta -"
+end

@@ -1,0 +1,21 @@
+<p>
+  <b>Nazwa:</b><%= @ad.name %>
+ </p>
+<p>
+  <b>Opis:</b><%= @ad.description %>
+</p>
+<p>
+  <b>Cena:</b><%= @ad.price %>
+</p>
+<p>
+  <b>Nr Sprzedającego:</b><%= @ad.seller_id %>
+</p>
+<p>
+  <b>Email:</b><%= @ad.email %>
+</p>
+<p>
+  <img src="<%= @ad.img_url %>" alt=""/>
+</p>
+<br />
+<a href="/ads/<%= @ad.id %>/edit">Edycja</a>
+<a href="/ads/<%= @ad.id %>/delete :confirm => 'Are you sure?'">Usuń</a>
