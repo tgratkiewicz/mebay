@@ -9525,3 +9525,132 @@ c2h7AAY6CkB1c2VkewA=--cf082a1d35e09b316df45ab2cfe9e3d74abfa25a
 Rendering template within layouts/ads
 Rendering ads/index
 Completed in 0.00391 (256 reqs/sec) | Rendering: 0.00150 (38%) | DB: 0.00033 (8%) | 200 OK [http://localhost/ads/]
+
+
+Processing AdsController#index (for 127.0.0.1 at 2012-05-16 20:58:13) [GET]
+  Session ID: 1166e79f1d56ad3602e79bfa7506860d
+  Parameters: {"action"=>"index", "controller"=>"ads"}
+  [4;36;1mAd Load (0.000516)[0m   [0;1mSELECT * FROM "ads" [0m
+Rendering template within layouts/ads
+Rendering ads/index
+Completed in 0.02463 (40 reqs/sec) | Rendering: 0.01921 (78%) | DB: 0.00052 (2%) | 200 OK [http://localhost/ads]
+
+
+Processing AdsController#index (for 127.0.0.1 at 2012-05-16 20:58:15) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--adf43a787ba94174bfee3800d72cfdedfa651b2f
+  Parameters: {"action"=>"index", "controller"=>"ads"}
+  [4;35;1mAd Load (0.000355)[0m   [0mSELECT * FROM "ads" [0m
+Rendering template within layouts/ads
+Rendering ads/index
+Completed in 0.00870 (114 reqs/sec) | Rendering: 0.00159 (18%) | DB: 0.00036 (4%) | 200 OK [http://localhost/ads/]
+
+
+Processing AdsController#new (for 127.0.0.1 at 2012-05-16 20:58:16) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--adf43a787ba94174bfee3800d72cfdedfa651b2f
+  Parameters: {"action"=>"new", "controller"=>"ads"}
+Rendering template within layouts/ads
+Rendering ads/new
+Completed in 0.03267 (30 reqs/sec) | Rendering: 0.02403 (73%) | DB: 0.00000 (0%) | 200 OK [http://localhost/ads/new]
+
+
+Processing AdsController#index (for 127.0.0.1 at 2012-05-16 20:58:17) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYWU5Y2MwNjBhMTA4OTUzMGEy
+Y2FmMDM2MzU0ZDU2ZGI=--f69b617f2d1d76c9aebe59eeac8defc6f5675da2
+  Parameters: {"action"=>"index", "controller"=>"ads"}
+  [4;36;1mAd Load (0.000506)[0m   [0;1mSELECT * FROM "ads" [0m
+Rendering template within layouts/ads
+Rendering ads/index
+Completed in 0.00945 (105 reqs/sec) | Rendering: 0.00143 (15%) | DB: 0.00051 (5%) | 200 OK [http://localhost/ads/]
+
+
+Processing AdsController#show (for 127.0.0.1 at 2012-05-16 20:58:19) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYWU5Y2MwNjBhMTA4OTUzMGEy
+Y2FmMDM2MzU0ZDU2ZGI=--f69b617f2d1d76c9aebe59eeac8defc6f5675da2
+  Parameters: {"action"=>"show", "id"=>"8", "controller"=>"ads"}
+  [4;35;1mAd Load (0.000142)[0m   [0mSELECT * FROM "ads" WHERE ("ads"."id" = 8) [0m
+Rendering template within layouts/ads
+Rendering ads/show
+Completed in 0.04432 (22 reqs/sec) | Rendering: 0.04116 (92%) | DB: 0.00014 (0%) | 200 OK [http://localhost/ads/8]
+
+
+Processing AdsController#destroy (for 127.0.0.1 at 2012-05-16 20:58:20) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYWU5Y2MwNjBhMTA4OTUzMGEy
+Y2FmMDM2MzU0ZDU2ZGI=--f69b617f2d1d76c9aebe59eeac8defc6f5675da2
+  Parameters: {"action"=>"destroy", "id"=>"8", "controller"=>"ads"}
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 0.00091 (1098 reqs/sec) | Rendering: 0.00079 (86%) | DB: 0.00000 (0%) | 401 Unauthorized [http://localhost/ads/8/delete]
+
+
+Processing AdsController#destroy (for 127.0.0.1 at 2012-05-16 20:58:23) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYWU5Y2MwNjBhMTA4OTUzMGEy
+Y2FmMDM2MzU0ZDU2ZGI=--f69b617f2d1d76c9aebe59eeac8defc6f5675da2
+  Parameters: {"action"=>"destroy", "id"=>"8", "controller"=>"ads"}
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 0.00041 (2451 reqs/sec) | Rendering: 0.00024 (57%) | DB: 0.00000 (0%) | 401 Unauthorized [http://localhost/ads/8/delete]
+
+
+Processing AdsController#destroy (for 127.0.0.1 at 2012-05-16 20:58:28) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYWU5Y2MwNjBhMTA4OTUzMGEy
+Y2FmMDM2MzU0ZDU2ZGI=--f69b617f2d1d76c9aebe59eeac8defc6f5675da2
+  Parameters: {"action"=>"destroy", "id"=>"8", "controller"=>"ads"}
+  [4;36;1mAd Load (0.000126)[0m   [0;1mSELECT * FROM "ads" WHERE ("ads"."id" = 8) [0m
+
+
+ArgumentError (wrong number of arguments (1 for 0)):
+    /app/controllers/ads_controller.rb:46:in `destroy'
+    /app/controllers/ads_controller.rb:46:in `destroy'
+    /var/lib/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/base.rb:1166:in `send'
+    /var/lib/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/base.rb:1166:in `perform_action_without_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/filters.rb:579:in `call_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/filters.rb:572:in `perform_action_without_benchmark'
+    /var/lib/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /var/lib/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /var/lib/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/rescue.rb:201:in `perform_action_without_caching'
+    /var/lib/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /var/lib/gems/1.8/gems/activerecord-2.1.2/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    /var/lib/gems/1.8/gems/activerecord-2.1.2/lib/active_record/query_cache.rb:8:in `cache'
+    /var/lib/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /var/lib/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/base.rb:529:in `send'
+    /var/lib/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/base.rb:529:in `process_without_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/filters.rb:568:in `process_without_session_management_support'
+    /var/lib/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/session_management.rb:130:in `process'
+    /var/lib/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/base.rb:389:in `process'
+    /var/lib/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    /var/lib/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /var/lib/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /var/lib/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /var/lib/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /var/lib/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /var/lib/gems/1.8/gems/rails-2.1.2/lib/webrick_server.rb:112:in `handle_dispatch'
+    /var/lib/gems/1.8/gems/rails-2.1.2/lib/webrick_server.rb:78:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /var/lib/gems/1.8/gems/rails-2.1.2/lib/webrick_server.rb:62:in `dispatch'
+    /var/lib/gems/1.8/gems/rails-2.1.2/lib/commands/servers/webrick.rb:66
+    /usr/lib/ruby/vendor_ruby/1.8/rubygems/custom_require.rb:36:in `gem_original_require'
+    /usr/lib/ruby/vendor_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+    /var/lib/gems/1.8/gems/activesupport-2.1.2/lib/active_support/dependencies.rb:510:in `require'
+    /var/lib/gems/1.8/gems/activesupport-2.1.2/lib/active_support/dependencies.rb:355:in `new_constants_in'
+    /var/lib/gems/1.8/gems/activesupport-2.1.2/lib/active_support/dependencies.rb:510:in `require'
+    /var/lib/gems/1.8/gems/rails-2.1.2/lib/commands/server.rb:39
+    /usr/lib/ruby/vendor_ruby/1.8/rubygems/custom_require.rb:36:in `gem_original_require'
+    /usr/lib/ruby/vendor_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+    script/server:3
+
+Rendering /var/lib/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
