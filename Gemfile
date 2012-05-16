@@ -1,1 +1,1 @@
-gem 'sqlite3'
+gem 'sqlite3-ruby'
